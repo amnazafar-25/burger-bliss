@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BURGER BLISS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">🍔 Burger Bliss</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details" data-aos="fade-right">
+                    <h2 class="title">🍔 Burger Bliss</h2>
+                    <h3 class="subtitle">Make your day <span class="underline">great</span> with our signature burgers!
+                    </h3>
+                    <p class="description">
+                        Welcome to the home of juicy, mouth-watering burgers — where every bite is a burst of flavor and
+                        every meal is pure bliss.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper" data-aos="fade-left">
+                    <img src="images/burger.png" alt="Burger Image" class="hero-image" />
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper" data-aos="fade-right">
+                    <img src="images/about.jpg" alt="About" class="about-image" />
+                </div>
+                <div class="about-details" data-aos="fade-left">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+                        Welcome to <strong>Burger Bliss</strong> — your ultimate destination for bold, juicy, and
+                        flavor-packed burgers. We specialize in handcrafted burgers made with fresh ingredients and
+                        sizzling
+                        creativity.
+                        <br><br>
+                        Whether you're craving a classic, spicy, or cheesy delight, we’ve got a burger to match your
+                        mood. From
+                        dine-in comfort to quick online orders, we bring bliss in every bite.
+                        <br>
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title" data-aos="fade-up">Our Menu</h2>
+            <!-- Burger Subtitle -->
+            <div class="subtitle-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="menu-subtitle">Burgers</h3>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="0">
+                    <img src="images/burger1.jpg" alt="Classic Cheeseburger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Classic Cheeseburger</h3>
+                        <p class="text">Beef patty, cheddar cheese, lettuce, tomato, pickles, and ketchup/mustard on a
+                            soft bun.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/burger2.jpg" alt="Bacon Cheeseburger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Bacon Cheeseburger</h3>
+                        <p class="text">A classic cheeseburger with crispy bacon for an extra flavor punch.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/burger3.jpg" alt="Mushroom Swiss Burger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Mushroom Swiss Burger</h3>
+                        <p class="text">Sautéed mushrooms and melted Swiss cheese on top of a juicy beef patty.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="images/burger4.jpg" alt="BBQ Burger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">BBQ Burger</h3>
+                        <p class="text">BBQ sauce, crispy onions, pickles, and bold smoky flavor.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="images/burger5.jpg" alt="Veggie Burger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Veggie Burger</h3>
+                        <p class="text">Plant-based patty with avocado, lettuce, and tomato — fresh and delicious.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="images/burger6.jpg" alt="Hawaiian Burger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Hawaiian Burger</h3>
+                        <p class="text">Grilled pineapple, teriyaki sauce, and ham for a sweet and savory experience.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="images/burger7.jpg" alt="Spicy Jalapeño Burger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Spicy Jalapeño Burger</h3>
+                        <p class="text">Fresh jalapeños, spicy cheese, and hot sauce — made for heat lovers.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="700">
+                    <img src="images/burger8.jpg" alt="Patty Melt" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Patty Melt</h3>
+                        <p class="text">Burger patty grilled between rye bread with melted Swiss and caramelized onions.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="menu-item" data-aos="zoom-in" data-aos-delay="800">
+                    <img src="images/burger9.jpg" alt="Double Cheeseburger" class="menu-image" />
+                    <div class="menu-details">
+                        <h3 class="name">Double Cheeseburger</h3>
+                        <p class="text">Two beef patties with melted cheese and all the toppings for a hearty meal.</p>
+                    </div>
+                </li>
+            </ul>
+        <!-- Drinks Section -->
+        <div class="subtitle-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="menu-subtitle">Drinks</h3>
+        </div>
+
+        <ul class="menu-list">
+            <li class="menu-item" data-aos="zoom-in" data-aos-delay="0">
+                <img src="images/drinks1.jpg" alt="Soft Drinks" class="menu-image" />
+                <div class="menu-details">
+                    <h3 class="name">Soft Drinks</h3>
+                    <p class="text">Coke, Sprite, Fanta and other fizzy favorites served chilled.</p>
+                </div>
+            </li>
+
+            <li class="menu-item" data-aos="zoom-in" data-aos-delay="100">
+                <img src="images/drinks2.jpg" alt="Milkshakes" class="menu-image" />
+                <div class="menu-details">
+                    <h3 class="name">Milkshakes</h3>
+                    <p class="text">Thick, creamy shakes available in chocolate, vanilla and strawberry flavors.</p>
+                </div>
+            </li>
+
+            <li class="menu-item" data-aos="zoom-in" data-aos-delay="200">
+                <img src="images/drinks3.jpg" alt="Mojitos & Lemonades" class="menu-image" />
+                <div class="menu-details">
+                    <h3 class="name">Mojitos & Lemonades</h3>
+                    <p class="text">Cool and refreshing drinks to perfectly pair with your burger.</p>
+                </div>
+            </li>
+        </ul>
+        </section>
+        <!-- Testimonials section -->
+        <section class="testimonials-section" id="testimonials">
+            <p class="subtitle" data-aos="fade-up">What Our Customers Say</p>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image" />
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"Absolutely loved the Classic Cheeseburger! Juicy, flavorful, and
+                                    perfectly cooked."</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.jpg" alt="User" class="user-image" />
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"The BBQ Burger was a game-changer. Smoky, saucy, and full of
+                                    flavor. Highly recommend!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-3.jpg" alt="User" class="user-image" />
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"Tried the Spicy Jalapeño Burger — amazing kick of heat! Fries were
+                                    crispy too."</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-4.jpg" alt="User" class="user-image" />
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Veggie Burger was fresh and delicious. Great for plant-based
+                                    eaters. Loved the milkshake too!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-5.jpg" alt="User" class="user-image" />
+                                <h3 class="name">Anthony Thompson</h3>
+                                <i class="feedback">"Quick delivery, tasty double cheeseburger, and the soft drink was
+                                    perfectly chilled. 10/10!"</i>
+                            </li>
+
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title" data-aos="fade-up">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
+                        <img src="images/gallery-1.jpg" alt="Gallery Image" class="gallery-image" />
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/gallery-2.jpg" alt="Gallery Image" class="gallery-image" />
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="images/gallery-3.jpg" alt="Gallery Image" class="gallery-image" />
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="images/gallery-4.jpg" alt="Gallery Image" class="gallery-image" />
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="images/gallery-5.jpg" alt="Gallery Image" class="gallery-image" />
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="images/galler-6.jpg" alt="Gallery Image" class="gallery-image" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title" data-aos="fade-up">Get in Touch with Burger Bliss</h2>
+            <div class="section-content">
+                <ul class="contact-info-list" data-aos="fade-right" data-aos-delay="100">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Bliss Street 21, Burger Town, PK 78000</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>support@burgerbliss.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+92 300 1234567</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Mon - Fri: 12:00 PM - 10:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sat - Sun: 1:00 PM - 12:00 AM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.burgerbliss.pk</p>
+                    </li>
+                </ul>
+                <form action="#" class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <input type="text" placeholder="Your Name" class="form-input" required />
+                    <input type="email" placeholder="Your Email" class="form-input" required />
+                    <textarea placeholder="Your Message (Burger Feedback, Order Issue, etc.)" class="form-input"
+                        required></textarea>
+                    <button type="submit" class="button submit-button">
+                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+        <!-- Footer section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text" data-aos="fade-up">
+                    © 2024 <strong>Burger Bliss</strong> — Serving joy, one burger at a time 🍔
+                </p>
+                <div class="social-link-list" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>>
+                <p class="policy-text" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 120,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
